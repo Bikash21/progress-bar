@@ -1,0 +1,29 @@
+.title {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+.progress {
+  width: 50%;
+  height: 1.5rem;
+  border: 1px solid black;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.progress span {
+  z-index: 2;
+}
+
+.progress-bar {
+  position: absolute;
+  background-color: green;
+  border-radius: 15px;
+  height: 1.5rem;
+  width: 100%;
+  z-index: 0;
+}
